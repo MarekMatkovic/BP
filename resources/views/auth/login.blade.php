@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-app-layout>
     <x-auth-card>
         @include('partials.layout._alerts')
 
@@ -42,4 +42,4 @@
             <a href="{{ route('register') }}" class="text-indigo-600 hover:text-indigo-700 font-medium">Registrovať sa</a>
         </p>
     </x-auth-card>
-</x-guest-layout>
+</x-app-layout>

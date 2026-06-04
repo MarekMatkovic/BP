@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-app-layout>
     <x-auth-card>
         @include('partials.layout._alerts')
 
@@ -34,4 +34,4 @@
     </form>
     @endinclude
     </x-auth-card>
-</x-guest-layout>
+</x-app-layout>
